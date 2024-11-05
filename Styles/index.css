@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: nunito sans-serif;
+}
+
+body{
+    margin: auto;
+    padding: 0;
+}
+#image-logo{
+    width: 80px;
+}
+#signup:hover{
+    background-color: green;
+    color: white;
+}
+#nav-link:hover{
+    color:green;
+}
+.banner-container{
+    height: 460px;
+}
+.bg-banner{
+    position: absolute;
+    margin-top: -50px;
+    opacity: 10%;
+    width: 710px;
+}
+.bg-banner2{
+    position: absolute;
+    margin-top: -50px;
+    opacity: 10%;
+    width: 710px;
+    margin-left: 710px;
+}
+.slogan-banner{
+    font-weight: bold;
+    margin-top: -350px;
+    margin-left:150px;
+}
+.slogan-banner2{
+    font-weight: bold;
+    margin-left:150px;
+}
+.slogan-banner3{
+    margin-left:150px;
+}
+.slogan-title{
+    position:absolute;
+}
+#shopnow-btn{
+    position: relative;
+    margin-left: 150px;
+    margin-top: -360px;
+}
+#shopnow-btn:hover{
+    background-color: green;
+    color: white;
+}
+#signup-btn{
+    position: relative;
+    margin-top: -360px;
+    color: white;
+    background-color: green;
+}
+#signup-btn:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+    background: none;
+    color: black;
+}
